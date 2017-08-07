@@ -63,6 +63,14 @@ namespace BreakTime
             Bttn_Start.Enabled = false;
             Bttn_Stop.Enabled = true;
 
+            var popupNotifier = new PopupNotifier();
+            popupNotifier.TitleText = "Break Ended";
+            popupNotifier.ContentText = "Your break has ended. Now resuming work session.";
+            popupNotifier.IsRightToLeft = false;
+            popupNotifier.BodyColor = Color.White;
+            popupNotifier.TitleColor = Color.Black;
+            popupNotifier.Popup();
+
         }
 
 
@@ -106,6 +114,8 @@ namespace BreakTime
                     popupNotifier.TitleText = "Break Ended";
                     popupNotifier.ContentText = "Your break has ended. Now resuming work session.";
                     popupNotifier.IsRightToLeft = false;
+                    popupNotifier.BodyColor = Color.White;
+                    popupNotifier.TitleColor = Color.Black;
                     popupNotifier.Popup();
                     intervalCount = 0;
                     breakTimer.Start();
