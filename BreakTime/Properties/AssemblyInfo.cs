@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("BreakTime")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Break Time")]
+[assembly: AssemblyDescription("Helps users set reminders to take a break from working")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("City of Austin")]
-[assembly: AssemblyProduct("BreakTime")]
-[assembly: AssemblyCopyright("Copyright © City of Austin 2017")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("Break Time")]
+[assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
